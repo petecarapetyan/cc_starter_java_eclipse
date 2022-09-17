@@ -1,4 +1,4 @@
-package com.coderscampus.main;
+package com.coderscampus.services;
 
 public class MyService {
 

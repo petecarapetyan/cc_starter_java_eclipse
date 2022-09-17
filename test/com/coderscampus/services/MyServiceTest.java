@@ -1,8 +1,10 @@
-package com.coderscampus.main;
+package com.coderscampus.services;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.coderscampus.services.MyService;
 
 class MyServiceTest {
 

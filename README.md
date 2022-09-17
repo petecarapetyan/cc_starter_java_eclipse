@@ -22,6 +22,14 @@ A template starter for instantiating a plain java project, with Eclipse metadata
 - Import this project as an existing Eclipse project
 - Start your coding in App.java's execute() method
 
+ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below.
+
+## Troubleshooting
+
+- A second project from this template will NOT import into a workspace if you didn't refactor the name of a previous. Hint: Look for a project in your workspace starting with the name `FIXME` and then rename that project.
+- If your Eclipse is not set up with Java 11, you may expect problems that require you to add a Java 11 JDK in order to resolve. PS you need to do this anyway - your code reviewer expects that regardless of what you use as your project starter.
+
+
 ## To remove unwanted boilerplate
 
 Some example code is included in this project. Depending on your skill level, 
@@ -35,5 +43,6 @@ But if you hand this project in as an assignment, you probably want to delete an
 
 - This project attempts to enforce a Java 11 version on the user. This is intentional, as this is a standard in the bootcamp.
 - This project is like it's sibling project, which is virtually identical except for being a maven project import.
-- Some teams prefer to gitignore the Eclipse metadata files (.project, .classpath) but this would defeat this template's usage.
+- Some teams prefer to gitignore the Eclipse metadata files (.project, .classpath) - but this would defeat this template's usage.
+- This project will also import into IntelliJ
 
