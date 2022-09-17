@@ -35,5 +35,5 @@ But if you hand this project in as an assignment, you probably want to delete an
 
 - This project attempts to enforce a Java 11 version on the user. This is intentional, as this is a standard in the bootcamp.
 - This project is like it's sibling project, which is virtually identical except for being a maven project import.
-
+- Some teams prefer to gitignore the Eclipse metadata files (.project, .classpath) but this would defeat this template's usage.
 
