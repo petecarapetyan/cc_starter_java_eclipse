@@ -15,14 +15,23 @@ A template starter for instantiating a plain java project, with Eclipse metadata
 - More material here than you will initially need
 - Shows unit test that you won't do until Assignment 7
 
-## How to
+
+## How to Consume Template
 
 - Create your project on github, not your local drive, by clicking the green template button
 - Clone this down to your local drive in the appropriate workspace directory
-- Import this project as an existing Eclipse project
+- Import this project as an existing Maven project
 - Start your coding in App.java's execute() method
 
 ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below.
+
+## How to run app
+
+In Eclipse run App.java as a java app as you would any other app
+
+## How To run Unit Tests
+
+In Eclipse run MyServiceTest as JUnit test
 
 ## Troubleshooting
 
