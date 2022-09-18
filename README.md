@@ -1,6 +1,6 @@
-# Starter Project for Java with Maven support.
+# Starter Project for Java and the Eclipse IDE
 
-A template starter for instantiating a plain java project, with Maven metadata
+A template starter for instantiating a plain java project, with Eclipse metadata
 
 ## Advantages to using this project
 
@@ -19,7 +19,7 @@ A template starter for instantiating a plain java project, with Maven metadata
 
 - Create your project on github, not your local drive, by clicking the green template button
 - Clone this down to your local drive in the appropriate workspace directory
-- Import this project as an existing Maven project
+- Import this project as an existing Eclipse project
 - Start your coding in App.java's execute() method
 
 ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below.
@@ -27,12 +27,12 @@ ALWAYS rename your project from `FIXME`, after importing! See troubleshooting be
 ## Troubleshooting
 
 - A second project from this template will NOT import into a workspace if you didn't refactor the name of a previous. Hint: Look for a project in your workspace starting with the name `FIXME` and then rename that project.
-- If your IDE is not set up with Java 11, you may expect problems that require you to add a Java 11 JDK in order to resolve. PS you need to do this anyway - your code reviewer expects that regardless of what you use as your project starter.
+- If your Eclipse is not set up with Java 11, you may expect problems that require you to add a Java 11 JDK in order to resolve. PS you need to do this anyway - your code reviewer expects that regardless of what you use as your project starter.
 
 
 ## To remove unwanted boilerplate
 
-Some example code is included in this project. Depending on your skill level ... 
+Some example code is included in this project. Depending on your skill level, 
 
 - You may wish to delete it immediately if it is not helpful
 - You may wish to leave it around for a while if it might be helpful
