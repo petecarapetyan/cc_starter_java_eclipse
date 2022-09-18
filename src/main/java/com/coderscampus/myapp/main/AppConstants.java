@@ -1,6 +1,6 @@
-package com.coderscampus.main;
+package com.coderscampus.myapp.main;
 
-public class MyConstants {
+public class AppConstants {
 	
 	/*
 	 * This is a convention that many teams use to keep all their app configuration strings
@@ -11,6 +11,6 @@ public class MyConstants {
 			+ " and like an app's `public static void main()` methods, are hopefully the only place\n"
 			+ " you will code with `static` in this entire bootcamp,\n"
 			+ " perhaps even in your entire career. ";
-	public static final String EXAMPLE_FILE_PATH = "data.txt";
+	public static final String EXAMPLE_FILE_PATH = "src/main/resources/data.txt";
 
 }
