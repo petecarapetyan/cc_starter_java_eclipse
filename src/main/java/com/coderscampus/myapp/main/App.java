@@ -14,7 +14,6 @@ public class App {
 		// Your code goes here, not in the main() method
 		// This removes any need to consume statics
 		// The code below is to be deleted once you understand what it does
-
 		System.out.println(AppConstants.EXAMPLE_CONSTANT);
 		System.out.println(" 2 * 17 = " + myService.multiply(2, 17));
 		System.out.println("Contents of the file at " + AppConstants.EXAMPLE_FILE_PATH);

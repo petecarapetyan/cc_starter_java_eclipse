@@ -20,7 +20,7 @@ A template starter for instantiating a plain java project, with Eclipse metadata
 
 - Create your project on github, not your local drive, by clicking the green template button
 - Clone this down to your local drive in the appropriate workspace directory
-- Import this project as an existing Maven project
+- Import this project as an existing Eclipse project
 - Start your coding in App.java's execute() method
 
 ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below.
