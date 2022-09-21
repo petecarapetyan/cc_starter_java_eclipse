@@ -23,7 +23,8 @@ A template starter for instantiating a plain java project, with Eclipse metadata
 - Import this project as an existing Eclipse project
 - Start your coding in App.java's execute() method
 
-ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below.
+ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below!!!!! (Right click, "Refactor" then "Rename")
+ALWAYS search your project for the string literal `FIXME`, and fix any as appropriate.
 
 ## How to run app
 
