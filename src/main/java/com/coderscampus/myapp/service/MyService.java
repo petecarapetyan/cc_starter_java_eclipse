@@ -19,8 +19,9 @@ public class MyService {
 	 */
 	public String fileContents(String filePath) {
 		String returnValue = null;
+		FileReader fileReader = null;
 		try {
-		      FileReader fileReader=new FileReader(filePath);    
+		      fileReader=new FileReader(filePath);    
 		      StringBuilder content = new StringBuilder();
 		      int nextChar;
 		      while ((nextChar = fileReader.read()) != -1) {
@@ -29,6 +30,15 @@ public class MyService {
 		      return String.valueOf(content);
 		} catch (IOException e) {
 			e.printStackTrace();
+		}finally {
+			if (fileReader != null) {
+				try {
+					fileReader.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
 		return returnValue;
 	}
