@@ -2,6 +2,10 @@
 
 A template starter for instantiating a plain java project, with Eclipse metadata
 
+## If You Can't See Green 'Use this template' Button
+
+If instead you see the green 'Code' button then you are not signed in to github.
+
 ## Advantages to using this project
 
 - You won't be confused by, and forced to use static methods and class variables that you don't yet understand.
